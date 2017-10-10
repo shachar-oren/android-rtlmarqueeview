@@ -18,7 +18,7 @@
         rtlmrq:marqueeTextSize="18dp"
         rtlmrq:marqueeText="@string/example_sentence"
         rtlmrq:marqueeEndWaitTicks="30"
-        rtlmrq:marqueeFadeToColor="@color/white"
+        rtlmrq:marqueeFadeToColor="?android:windowBackground"
         rtlmrq:marqueeIsLooping="true"
         rtlmrq:marqueeStartWaitTicks="30"
         rtlmrq:marqueeLoops="0"
