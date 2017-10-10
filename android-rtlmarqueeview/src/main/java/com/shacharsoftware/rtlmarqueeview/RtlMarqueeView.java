@@ -84,6 +84,10 @@ public class RtlMarqueeView extends FrameLayout {
     public int getEndWaitTicks(){
         return baseRtlMarqueeView.getEndWaitTicks();
     }
+
+    public void updateRtl(){
+        baseRtlMarqueeView.updateRtl();
+    }
     //endregion
 
     //region ctor
