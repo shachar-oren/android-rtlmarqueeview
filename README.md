@@ -63,7 +63,7 @@ void setEndWaitTicks(int ticks)
 int getEndWaitTicks()
 ```
 
-##License
+## License
 
 ```text
 Copyright 2017 Shachar Oren
