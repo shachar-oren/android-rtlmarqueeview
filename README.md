@@ -3,6 +3,10 @@ Use RtlMarqueeView to display rtl (or ltr) text with proper movement direction.
 
 Based on open source lib: https://github.com/MohMah/MarqueeView under the MIT License.
 
+Preview:
+
+<img src="https://github.com/shachar-oren/android-rtlmarqueeview/blob/master/example.gif" alt="demo" height="50px"/>
+
 ## Usage
 
 Example Usage in XML:
