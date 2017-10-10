@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RtlMarqueeView Demo</string>
+    <string name="example_sentence">This library is awesome isn\'t it? It\'s exactly what you need!</string>
+</resources>

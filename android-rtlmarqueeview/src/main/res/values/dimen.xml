@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="fade_width" format="dimension" type="dimen">12dp</item>
+    <item name="marquee_padding_from_fade" format="dimension" type="dimen">4dp</item>
+    <item name="textview_padding" format="dimension" type="dimen">8dp</item>
+    <item name="default_text_size" format="dimension" type="dimen">14dp</item>
+</resources>

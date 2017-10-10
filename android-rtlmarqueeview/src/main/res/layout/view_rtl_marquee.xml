@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+    >
+
+    <com.shacharsoftware.rtlmarqueeview.BaseRtlMarqueeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/marquee_padding_from_fade"
+        android:layout_marginStart="@dimen/marquee_padding_from_fade"
+        android:clickable="false"
+        android:scrollbars="none"
+        android:id="@+id/mv_marquee"
+        >
+
+        <TextView
+            android:id="@+id/tv_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingEnd="@dimen/textview_padding"
+            android:paddingStart="@dimen/textview_padding"
+            android:ellipsize="marquee"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textSize="14dp"
+            />
+
+    </com.shacharsoftware.rtlmarqueeview.BaseRtlMarqueeView>
+
+    <ImageView
+        android:id="@+id/iv_start_fade"
+        android:layout_width="@dimen/fade_width"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/mv_marquee"
+        android:layout_alignBottom="@id/mv_marquee"
+        android:layout_alignStart="@+id/mv_marquee"
+        android:src="@drawable/fade_white_reversed"
+        android:layout_alignLeft="@+id/mv_marquee"/>
+
+    <ImageView
+        android:id="@+id/iv_end_fade"
+        android:layout_width="@dimen/fade_width"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/mv_marquee"
+        android:layout_alignBottom="@id/mv_marquee"
+        android:layout_alignEnd="@+id/mv_marquee"
+        android:src="@drawable/fade_white"
+        android:layout_alignRight="@+id/mv_marquee"/>
+
+</RelativeLayout>
