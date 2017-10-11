@@ -47,7 +47,7 @@
         android:layout_width="@dimen/fade_width"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/mv_marquee"
-        android:layout_alignBottom="@id/mv_marquee"
+        android:layout_alignBottom="@+id/mv_marquee"
         android:layout_alignEnd="@+id/mv_marquee"
         android:src="@drawable/fade_white"
         android:layout_alignRight="@+id/mv_marquee"/>

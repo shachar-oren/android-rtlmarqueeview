@@ -21,7 +21,7 @@ Add it in your root build.gradle at the end of repositories:
 Add the dependency:
 ```
 	dependencies {
-		compile 'com.github.shachar-oren:android-rtlmarqueeview:1.0.3'
+		compile 'com.github.shachar-oren:android-rtlmarqueeview:1.0.4'
 	}
 ```
 ## Usage
