@@ -35,7 +35,7 @@
     <ImageView
         android:id="@+id/iv_start_fade"
         android:layout_width="@dimen/fade_width"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_alignTop="@+id/mv_marquee"
         android:layout_alignBottom="@id/mv_marquee"
         android:layout_alignStart="@+id/mv_marquee"
@@ -45,7 +45,7 @@
     <ImageView
         android:id="@+id/iv_end_fade"
         android:layout_width="@dimen/fade_width"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_alignTop="@+id/mv_marquee"
         android:layout_alignBottom="@id/mv_marquee"
         android:layout_alignEnd="@+id/mv_marquee"
