@@ -7,6 +7,23 @@ Preview:
 
 <img src="https://github.com/shachar-oren/android-rtlmarqueeview/blob/master/example.gif" alt="demo" height="50px"/>
 
+## Integration
+
+Add it in your root build.gradle at the end of repositories:
+```
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Add the dependency:
+```
+	dependencies {
+		compile 'com.github.shachar-oren:android-rtlmarqueeview:v1.0.1'
+	}
+```
 ## Usage
 
 Example Usage in XML:
