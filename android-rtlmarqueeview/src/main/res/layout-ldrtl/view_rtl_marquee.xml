@@ -17,7 +17,7 @@
 
         <TextView
             android:id="@+id/tv_main"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:paddingEnd="@dimen/textview_padding"
